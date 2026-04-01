@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: #1B384D;
+    background-image: url("../Assets/Background/Background.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.background {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#ffffff, #ffffff80, #ffffff);
+}
+
+/* HEADER */
+header {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 8vh; /* más chico */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icono {
+    width: 30px;
+    height: 30px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* CONTENIDO */
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; /* reparte TODO */
+    align-items: center;
+
+    margin: 15px;
+    margin-top: 30px;
+    padding: 10px;
+
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* TEXTOS */
+h2 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+p {
+    font-size: 16px;
+    margin: 5px 10px;
+}
+
+/* IMAGEN */
+.reference-img {
+    max-height: 30vh;
+    max-width: 120%;
+    object-fit: contain;
+}
+
+/* BOTONES */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 80%;
+}
+
+button {
+    padding: 10px;
+    font-size: 14px;
+    background-color: #1f1f1f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}

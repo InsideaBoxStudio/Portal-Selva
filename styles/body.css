@@ -1,0 +1,23 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+
+    font-family: Arial, sans-serif;
+    color: #1B384D;
+
+    background-image: url("../Assets/Background/Background.jpg");
+    background-size: cover;
+    background-position: center;
+
+    text-align: center;
+
+    overflow: hidden;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#ffffff, #ffffff80, #ffffff, #ffffff);
+}
