@@ -4,7 +4,7 @@ body {
     height: 100vh;
     font-family: Arial, sans-serif;
     color: #1B384D;
-    background-image: url("../Assets/Background/Background.jpg");
+    background-image: url("Assets/Background/Background.jpg");
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -96,4 +96,9 @@ button {
     color: #fff;
     border: none;
     border-radius: 5px;
+}
+
+.pie {
+    color: #00000080;
+    text-align: left;
 }
