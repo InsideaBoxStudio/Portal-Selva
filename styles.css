@@ -99,6 +99,11 @@ button {
     transition: 0.2s;
 }
 
+.subtexto {
+    font-size: 8px;
+    color: #ffffff40;
+}
+
 button:active {
     background-color: #007bff;
     transform: scale(0.97);
